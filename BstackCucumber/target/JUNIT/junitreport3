@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="145.651" tests="14" skipped="0" failures="0" errors="0">
+<testcase classname="login module" name="to login to website" time="9.808">
+<system-out><![CDATA[
+Given open Bstack website...................................................passed
+When login..................................................................passed
+Then logged in sucessfully..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="add to cart module" name="adding item to cart" time="11.775">
+<system-out><![CDATA[
+Given website is open and account loggedin..................................passed
+When additemtocart..........................................................passed
+Then added sucessfully......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="delete cart module" name="deleting item from cart" time="17.188">
+<system-out><![CDATA[
+Given open webiste and login................................................passed
+When delete.................................................................passed
+Then deleted sucessfully....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="buymodule" name="buying a product" time="12.186">
+<system-out><![CDATA[
+Given open webbsite and login...............................................passed
+When buy....................................................................passed
+Then orderd sucessfully.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to input in the search field" name="succesfully entered - #1.1" time="8.903">
+<system-out><![CDATA[
+Given logi page open in def browser.........................................passed
+When give multiple search apple.............................................passed
+Then search is successful...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to input in the search field" name="succesfully entered - #1.2" time="9.565">
+<system-out><![CDATA[
+Given logi page open in def browser.........................................passed
+When give multiple search oneplus...........................................passed
+Then search is successful...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to input in the search field" name="succesfully entered - #1.3" time="9.74">
+<system-out><![CDATA[
+Given logi page open in def browser.........................................passed
+When give multiple search samsung...........................................passed
+Then search is successful...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to input in the search field" name="succesfully entered - #1.4" time="9.046">
+<system-out><![CDATA[
+Given logi page open in def browser.........................................passed
+When give multiple search google............................................passed
+Then search is successful...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="shop by brand module" name="shopping by selecting brands" time="9.205">
+<system-out><![CDATA[
+Given website is openeddd...................................................passed
+When shopbybrand............................................................passed
+Then sorted by brands.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="orderby module" name="sorting by price values" time="8.861">
+<system-out><![CDATA[
+Given open websiteeeee......................................................passed
+When orderBy................................................................passed
+Then soretd by prces........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Favourtes module" name="check favourites icn" time="10.834">
+<system-out><![CDATA[
+Given website is open in ur sys.............................................passed
+When click on fav icon......................................................passed
+Then addtd to favourites....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="offers module" name="vrify offers module" time="10.079">
+<system-out><![CDATA[
+Given opennnn websitee......................................................passed
+When click offers...........................................................passed
+Then offers page opened.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="privacyolicy module" name="verify privacy policy" time="8.21">
+<system-out><![CDATA[
+Given website is opeeeened..................................................passed
+When click on privacypolicy.................................................passed
+Then privacy policy page is opened..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="logout module" name="logging out" time="9.806">
+<system-out><![CDATA[
+Given website is opened and a account issss loggedin........................passed
+When click on logout........................................................passed
+Then loggged out sucessfully................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
